@@ -1,0 +1,138 @@
+         +----------------------------+
+         |          Start             |
+         +----------------------------+
+                     |
+                     v
+         +----------------------------+
+         |  Extract Backup Metadata   |
+         +----------------------------+
+                     |
+                     v
+         +----------------------------+
+         |  Preprocess & Clean Data   |
+         +----------------------------+
+                     |
+                     v
+  +------------------------------------------+
+  | Train AI Model (SNN, RL, XGBoost)       |
+  | - Learn file importance & dependencies  |
+  | - Assign priority scores                |
+  +------------------------------------------+
+                     |
+                     v
+  +---------------------------+
+  |  Detect Disaster Event?   |
+  +---------------------------+
+        /        |        \
+       v         v         v
++----------------+ +----------------+ +----------------+
+| Ransomware    | | System Crash   | | Accidental     |
+| Attack Detected| | Detected       | | Deletion      |
++----------------+ +----------------+ +----------------+
+        \        |        /
+         \       |       /
+          \      |      /
+           v     v     v
++--------------------------------------+
+| AI Predicts Critical Files for      |
+| Recovery & Generates Priority Scores|
++--------------------------------------+
+                     |
+                     v
++----------------------------+
+|  Execute Smart Recovery    |
+|  - Pre-fetch critical data |
+|  - Adaptive learning       |
++----------------------------+
+                     |
+                     v
++--------------------------------------+
+| Enterprise Backup Integration       |
+| - NetBackup, Cohesity, Veeam, etc.  |
+| - Cloud & on-premises support       |
++--------------------------------------+
+                     |
+                     v
+         +----------------------------+
+         |           End               |
+         +----------------------------+
+
+____________
+
+
+
+         +------------------------------------------------+
+         |                    Start                      |
+         +------------------------------------------------+
+                              |
+                              v
+         +------------------------------------------------+
+         |  Extract Backup Metadata from System Logs     |
+         |  - File names, types, sizes, timestamps       |
+         |  - Access frequency, dependencies, users     |
+         +------------------------------------------------+
+                              |
+                              v
+         +------------------------------------------------+
+         |  Preprocess & Clean Data                      |
+         |  - Remove duplicates & irrelevant files       |
+         |  - Normalize timestamps & file paths         |
+         +------------------------------------------------+
+                              |
+                              v
+         +---------------------------------------------------------------+
+         | Train AI Model (SNN, RL, XGBoost)                              |
+         | - Spiking Neural Networks (SNNs) for memory-like retrieval    |
+         | - XGBoost for initial priority scoring                        |
+         | - Reinforcement Learning (RL) for optimizing restore order    |
+         +---------------------------------------------------------------+
+                              |
+                              v
+         +------------------------------------------------+
+         | Detect Disaster Event?                         |
+         | - Monitor system for failures & anomalies     |
+         | - Compare against historical failure patterns |
+         +------------------------------------------------+
+               /         |          |          \
+              v          v          v          v
++-----------------+ +----------------+ +----------------+ +------------------+
+|  Ransomware    | |  System Crash  | | Accidental     | |  Disk Failure     |
+|  Attack        | |  OS Failure    | | Deletion       | |  Corrupted Drives |
+|  Detected      | |  Critical Files| | Detected       | |  RAID Failure     |
++-----------------+ +----------------+ +----------------+ +------------------+
+               \        |          |        /
+                \       |          |       /
+                 v      v          v      v
++-----------------------------------------------------------+
+| AI Predicts Critical Files for Recovery                  |
+| - High-priority files identified based on usage patterns |
+| - Security scan ensures clean files are restored first   |
++-----------------------------------------------------------+
+                              |
+                              v
++-----------------------------------------------------------+
+| AI Generates Dynamic Recovery Plan                        |
+| - Instant pre-fetching of critical system files          |
+| - Prioritization of OS, databases, and active user files |
++-----------------------------------------------------------+
+                              |
+                              v
++-----------------------------------------------------------+
+| Execute Smart Recovery                                    |
+| - Adaptive learning ensures optimal restoration order    |
+| - Preloads essential applications before full recovery   |
+| - Validates integrity of restored files                  |
++-----------------------------------------------------------+
+                              |
+                              v
++-----------------------------------------------------------+
+| Integrate with Enterprise Backup Solutions               |
+| - Connect to NetBackup, Cohesity, Veeam, and AWS S3      |
+| - Optimize hybrid cloud & on-prem disaster recovery      |
+| - Continuously update AI model with new recovery data    |
++-----------------------------------------------------------+
+                              |
+                              v
+         +------------------------------------------------+
+         |                   End                         |
+         +------------------------------------------------+
